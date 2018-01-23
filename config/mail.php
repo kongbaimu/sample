@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'kongbai3137@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'zhanghao'),
     ],
 
     /*
@@ -100,6 +100,8 @@ return [
     */
 
     'sendmail' => '/usr/sbin/sendmail -bs',
+
+    'pretend' => false,
 
     /*
     |--------------------------------------------------------------------------
